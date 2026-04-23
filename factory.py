@@ -1,18 +1,20 @@
 import os
 import random
 
-# ১. তোমার অ্যাড লিঙ্কগুলো
+# ১. তোমার অ্যাড লিঙ্কগুলো (আগের মতোই আছে)
 AD_LINKS = [
     "https://www.profitablecpmratenetwork.com/ud2qw6p3d7?key=275a836a0d6ce5c21562f245c57cdf1a",
     "https://www.profitablecpmratenetwork.com/zaa9nppna?key=e42ebc0a997943ef4b244903273e1743"
 ]
 
-# ২. বাইরের দেশের ট্রাফিকের জন্য আকর্ষণীয় টাইটেল
+# ২. সুপার ভাইরাল ও হাই-সার্চ টাইটেল (এগুলো ট্রাফিক টানতে সাহায্য করবে)
 VIRAL_TITLES = [
-    "Exclusive Leaked Scene - Viral Video",
-    "Watch Trending Viral Content 2026",
-    "Full HD Movie Clip - Limited Time Access",
-    "Viral Media Update - Watch Before Removed"
+    "Watch Free Full HD Movie Scene 2026",
+    "Viral Trending Video - Exclusive Access",
+    "Leaked Movie Clip Original Link Download",
+    "New Blockbuster Secret Scene Leaked",
+    "Must Watch: Viral Social Media Video",
+    "Exclusive: Full Content Available Now"
 ]
 
 def create_landing_page():
