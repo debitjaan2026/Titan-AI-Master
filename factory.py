@@ -8,9 +8,6 @@ AD_LINKS = [
 ]
 
 def create_landing_page(trend_name):
-    if not os.path.exists('pages'):
-        os.makedirs('pages')
-    
     # র্যান্ডমলি একটি লিঙ্ক সিলেক্ট করা
     target_link = random.choice(AD_LINKS)
     
@@ -39,7 +36,8 @@ def create_landing_page(trend_name):
     </html>
     """
     
-    with open('pages/index.html', 'w', encoding='utf-8') as f:
+    # আমরা সরাসরি index.html এ ফাইলটা লিখছি (pages/ ফোল্ডার বাদ দিয়ে)
+    with open('index.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
     print(f"Landing page created for: {trend_name}")
 
